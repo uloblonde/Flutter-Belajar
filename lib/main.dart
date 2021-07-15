@@ -8,7 +8,7 @@ void main (){
 class HalamanHalo extends StatelessWidget{
   @override
   Widget build(BuildContext context) { //membuat sebuah widget
-    return new Scaffold(                        //yang memberikan nilai balik pada Scaffold, Scaffold adalah Activity pada flutter
+    return new Scaffold(              //yang memberikan nilai balik pada Scaffold, Scaffold adalah Activity pada flutter
     appBar: new AppBar(
       leading: new Icon(Icons.home),
       title: new Center(
@@ -22,7 +22,7 @@ class HalamanHalo extends StatelessWidget{
           children: <Widget>[
             new Cardku(icon: Icons.home, teks: "Home", warnaIcon: Colors.cyan,),
             new Cardku(icon: Icons.local_pizza, teks: "Home", warnaIcon: Colors.black,),
-            new Cardku(icon: Icons.home, teks: "Home", warnaIcon: Colors.brown,),
+            new Cardku(icon: Icons.home, teks: "Kamu", warnaIcon: Colors.brown,),
 
           ],
         ),
